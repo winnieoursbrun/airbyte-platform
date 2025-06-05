@@ -91,7 +91,10 @@ global:
     # -- The database password
     password: ""
     # -- The key within `secretName` where the password is stored
-    #passwordSecretKey: "" # e.g."database-password"
+    #passwordSecretKey: "" # e.g."database-password"storage:
+    
+    # -- The database disk size
+    volumeClaimValue: 500Mi
 
 
 
